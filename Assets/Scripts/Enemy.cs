@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
             startpos2 = enemy.transform.position;
         }
     }
-    //eskiden OnCollisionEnter ýn içindeydi
+   
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
