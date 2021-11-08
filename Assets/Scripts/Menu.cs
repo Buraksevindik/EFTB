@@ -8,5 +8,8 @@ public class Menu : MonoBehaviour
     public void OpenMenu() 
     {
         Menuu.SetActive(true);
+        Time.timeScale = 0;
+
+  
     }
 }

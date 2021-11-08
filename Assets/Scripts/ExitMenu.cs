@@ -8,5 +8,6 @@ public class ExitMenu : MonoBehaviour
     public void OpenGame()
     {
         Menuu.SetActive(false);
+        Time.timeScale = 1;
     }
 }
