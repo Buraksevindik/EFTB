@@ -10,16 +10,15 @@ public class Camera : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<Transform>();
     }
     void Update()
-    {        
-        try
+    {
+        if (player)
         {
-            transform.position = player.position+ offset;
+            transform.position = player.position + offset;
         }
-        catch (System.Exception)
+        else
         {
-
             square = GameObject.Find("Square").GetComponent<Transform>();
-            transform.position = square.position+ offset;
+            transform.position = square.position + offset;
         }
     }
 }

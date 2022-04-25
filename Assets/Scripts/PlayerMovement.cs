@@ -62,6 +62,7 @@ public class PlayerMovement : MonoBehaviour
 #if UNITY_EDITOR
         if (Input.GetAxis("Horizontal") != 0)
         {
+            //FreezePosition 
             rb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
             if (Input.GetAxis("Horizontal") > 0)
             {
