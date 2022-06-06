@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class ExpandingBox : MonoBehaviour
 {
+    public int x, y, z;
     [SerializeField] float timeUnExpanded, timeExpanded;
     void Start()
     {
@@ -28,5 +29,14 @@ public class ExpandingBox : MonoBehaviour
                 Destroy(go[i]);
             }
         }
+    }
+    public void sa() 
+    {
+        Object[] go = new Object[8];
+        for (int i = 0; i < 8; i++)
+        {
+
+        }
+      
     }
 }
