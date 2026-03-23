@@ -1,20 +1,21 @@
-### Description
-A complete 2D Unity game with multiple levels, hazards, enemies, projectiles, and a scoring system. Players navigate through traps, collect points, and complete stages.
+#Açıklama
 
-### Technologies
-- Unity Engine (C#)
-- Rigidbody2D & BoxCollider2D physics
-- PlayerPrefs for score saving
-- UI (Text, Buttons)
+Çok seviyeli, tehlikeler, düşmanlar, fırlatılabilir nesneler ve puan sistemi içeren eksiksiz bir 2D Unity oyunu. Oyuncular tuzaklardan kaçar, puan toplar ve seviyeleri tamamlar.
 
-### Features
-- Player Movement: Touch controls for mobile and keyboard support for PC.
-- Enemies & Traps: Dynamic enemies and projectiles, plus environmental hazards.
-- Level System: 10 levels with unlockable progression.
-- Score System: Collect points dynamically during gameplay.
-- Camera Follow: Camera follows player or fallback object.
-- Expanding/Sliding Obstacles: Dynamic hazards that increase gameplay challenge.
-- UI & Menus: Pause, resume, exit, win and death screens.
-- Finish System: Winning a level triggers finish screen and stops time.
+#Kullanılan Teknolojiler
+Unity Engine (C#)
+Rigidbody2D & BoxCollider2D fizik sistemi
+PlayerPrefs ile skor kaydetme
+UI (Metin, Butonlar)
 
-> *Created as a learning project to explore Unity 2D mechanics, level design, and player interaction.*
+#Özellikler
+Oyuncu Hareketi: Mobil için dokunmatik kontroller ve PC için klavye desteği.
+Düşmanlar & Tuzaklar: Dinamik düşmanlar ve fırlatılabilir nesneler, çevresel tehlikeler.
+Seviye Sistemi: Kilidi açılabilir 10 seviye ile ilerleme sistemi.
+Puan Sistemi: Oyun sırasında dinamik puan toplama.
+Kamera Takibi: Kamera, oyuncuyu veya alternatif nesneyi takip eder.
+Genişleyen/Kaydırmalı Engeller: Oyunun zorluk seviyesini artıran dinamik tehlikeler.
+UI & Menüler: Duraklat, devam et, çıkış, kazanma ve ölüm ekranları.
+Bitirme Sistemi: Bir seviyeyi tamamlamak, bitirme ekranını tetikler ve zamanı durdurur.
+
+Unity 2D mekaniğini, seviye tasarımını ve oyuncu etkileşimini öğrenmek amacıyla oluşturulmuş bir proje.
