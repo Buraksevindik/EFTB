@@ -2,13 +2,15 @@
 
 Çok seviyeli, tehlikeler, düşmanlar, fırlatılabilir nesneler ve puan sistemi içeren eksiksiz bir 2D Unity oyunu. Oyuncular tuzaklardan kaçar, puan toplar ve seviyeleri tamamlar.
 
-#Kullanılan Teknolojiler
+#Kullanılan Teknolojiler:
+
 Unity Engine (C#)
 Rigidbody2D & BoxCollider2D fizik sistemi
 PlayerPrefs ile skor kaydetme
 UI (Metin, Butonlar)
 
-#Özellikler
+#Özellikler :
+
 Oyuncu Hareketi: Mobil için dokunmatik kontroller ve PC için klavye desteği.
 Düşmanlar & Tuzaklar: Dinamik düşmanlar ve fırlatılabilir nesneler, çevresel tehlikeler.
 Seviye Sistemi: Kilidi açılabilir 10 seviye ile ilerleme sistemi.
